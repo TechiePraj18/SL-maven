@@ -4,7 +4,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your source code from version control
-                git 'https://github.com/your/repository.git'
+               //git 'https://github.com/your/repository.git'
+               git clone 'https://github.com/TechiePraj18/SL-maven.git'
             }
         }
         stage('Build') {
