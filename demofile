@@ -4,12 +4,7 @@ tools{
 maven 'MAVEN_HOME'
 }
     stages {
-        stage('Checkout') {
-            steps {
-                // Checkout your source code from version control
-               git 'https://github.com/TechiePraj18/SL-maven.git'
-            }
-        }
+        
         stage('Build') {
             steps {
                 // Use Maven to build your project
